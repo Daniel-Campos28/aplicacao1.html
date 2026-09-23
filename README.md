@@ -84,4 +84,4 @@ O projeto está organizado na seguinte estrutura:
 
 ## Autores
 
-- **Alunos:**(incompleto) Vinicius Marlin, Afonso Figueiredo, Yan, Caio, Guilherme
+- **Alunos:** Vinicius Marlin, Afonso Figueiredo, Yan Barreto, Caio Ramos, Guilherme Maia, Daniel Araujo, Tarcisio Araujo, Victor Gabriel.
