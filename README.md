@@ -42,7 +42,7 @@ O projeto está organizado na seguinte estrutura:
 .
 ├── index.html         # Página principal da vitrine
 ├── style.css          # Folha de estilos com as regras visuais e responsivas
-└── assets/            # Recorrentes visuais e mídias do projeto
+└── assets/            # Recursos visuais e mídias do projeto
     ├── gif.html       # Visualizador/Página auxiliar de mídia
     ├── ideaped.jpg    # Imagem da promoção Lenovo IdeaPad
     ├── motog35.jpg    # Imagem da promoção Motorola Moto G35
@@ -63,7 +63,7 @@ O projeto está organizado na seguinte estrutura:
 
 1. **Clonar o Repositório**:
    ```bash
-   git clone [https://github.com/seu-usuario/techpromo.git](https://github.com/seu-usuario/techpromo.git)
+   git clone https://github.com/Daniel-Campos28/aplicacao1.html
    ```
 
 2. Abrir o Projeto
