@@ -30,7 +30,7 @@ Conforme os requisitos da disciplina:
 - **Affordance e Visibilidade**: Botões de ação (`.btn`) e elementos interativos possuem clara indicação visual de clique através de estados de `:hover`, bordas e feedbacks visuais.
 - **Experiência do Usuário (UX)**: Disposição clara das ofertas em cartões (cards) organizados, otimizando o escaneamento visual de preços e especificações técnicas.
 - **Arquitetura de Informação**: Navegação simples com menu estruturado e barra de pesquisa centralizada para facilitar o fluxo de busca.
-- **Design Responsivo**: Layout flexível com CSS Grid/Flexbox adaptando-se a diferentes tamanhos de tela.
+- **Design Responsivo**: Layout flexível com Flexbox adaptando-se a diferentes tamanhos de tela.
 
 ---
 
@@ -43,7 +43,7 @@ O projeto está organizado na seguinte estrutura:
 ├── index.html         # Página principal da vitrine
 ├── style.css          # Folha de estilos com as regras visuais e responsivas
 └── assets/            # Recursos visuais e mídias do projeto
-    ├── gif.html       # Visualizador/Página auxiliar de mídia
+    ├── gif.html       # Página de aviso de redirecionamento para GIF no Tenor
     ├── ideaped.jpg    # Imagem da promoção Lenovo IdeaPad
     ├── motog35.jpg    # Imagem da promoção Motorola Moto G35
     ├── redmi.jpg      # Imagem da promoção Xiaomi Redmi Pad
