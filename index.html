@@ -1,162 +1,180 @@
+
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TechPromo</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>TechPromo</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechPromo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-      <form action="https://www.google.com/search" method="get">
-        <input
-          type="text"
-          name="q"
-          placeholder="Pesquisar..."
-          aria-label="Pesquisar"
-          required
-        />
-        <input type="submit" value="Pesquisar" />
-      </form>
+<body>
+  <header>
+    <h1>TechPromo</h1>
 
-      <nav>
-        <menu>
-          <li><a href="#" class="btn">Home</a></li>
-          <li>
-            <a
-              target="_blank"
-              href="https://www.mercadolivre.com.br/smartphone-motorola-moto-g35-5g-256gb-4gb-ram8gb-ram-boost-e-camera-50mp-com-ai-nfc-tela-67-com-superbrilho-coral-vegan-leather/p/MLB41540860?matt_tool=64616970&forceInApp=true"
-              class="btn"
-              >Celular</a
-            >
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://www.mercadolivre.com.br/notebook-lenovo-ideapad-1-ryzen-5-7520u-8gb-512gb-w11-156-hd-82x5000gbr/p/MLB35719084"
-              class="btn"
-              rel="noopener noreferrer"
-              >Notebook</a
-            >
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://www.mercadolivre.com.br/tablet-xiaomi-redmi-pad-2-11-256gb-8gb-ram-wi-fi-cor-cinza/p/MLB51481126"
-              class="btn"
-              rel="noopener noreferrer"
-              >Tablet</a
-            >
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://g1.globo.com/tecnologia/"
-              rel="noopener noreferrer"
-              class="btn"
-              >Notícias</a
-            >
-          </li>
-        </menu>
-      </nav>
-    </header>
+    <form action="https://www.google.com/search" method="get">
+      <input type="text" name="q" placeholder="Pesquisar..." aria-label="Pesquisar" required>
+      <input type="submit" value="Pesquisar">
+    </form>
+    
 
-    <main>
-      <section>
-        <h2>Melhores Promoções de Outubro</h2>
+    <nav>
+        <h2>Melhores ofertas de :</h2>
+      <menu>
+       
+        <li><a href="https://www.mercadolivre.com.br/smartphone-motorola-moto-g35-5g-256gb-4gb-ram8gb-ram-boost-e-camera-50mp-com-ai-nfc-tela-67-com-superbrilho-coral-vegan-leather/p/MLB41540860" target="_blank" rel="noopener noreferrer" class="btn">Celular</a></li>
+        <li><a href="https://www.mercadolivre.com.br/notebook-lenovo-ideapad-1-ryzen-5-7520u-8gb-512gb-w11-156-hd-82x5000gbr/p/MLB35719084" target="_blank" rel="noopener noreferrer" class="btn">Notebook</a></li>
+        <li><a href="https://www.mercadolivre.com.br/tablet-xiaomi-redmi-pad-2-11-256gb-8gb-ram-wi-fi-cor-cinza/p/MLB51481126" target="_blank" rel="noopener noreferrer" class="btn">Tablet</a></li>
+      
+      </menu>
+    </nav>
 
-        <ul>
-  <li>
-    <h3>
-      <a
-        href="https://www.mercadolivre.com.br/smartphone-motorola-moto-g35-5g-256gb-4gb-ram8gb-ram-boost-e-camera-50mp-com-ai-nfc-tela-67-com-superbrilho-coral-vegan-leather/p/MLB41540860?matt_tool=64616970&forceInApp=true"
-        target="_blank"
-        class="card-link"
-        rel="noopener noreferrer"
+  </header>
+
+  <main>
+    <section class="banner">
+      <h2> Seu próximo upgrade começa aqui </h2>
+      <p>Encontre celulares, notebooks, tablets e outros produtos com preços especiais.</p>
+    </section>
+
+    <section class="promocoes">
+      <h2>Melhores Promoções de Outubro</h2>
+
+      <ul class="lista-produtos">
+        <li class="produto">
+          <h3><a href="https://www.mercadolivre.com.br/smartphone-motorola-moto-g35-5g-256gb-4gb-ram8gb-ram-boost-e-camera-50mp-com-ai-nfc-tela-67-com-superbrilho-coral-vegan-leather/p/MLB41540860" target="_blank" rel="noopener noreferrer" class="card-link">Motorola Moto G35 5G</a></h3>
+          <img src="assets/motog35.jpg" alt="Smartphone Motorola Moto G35" width="300" height="300">
+          <p>256GB • 4GB RAM • Câmera 50MP</p>
+          <p class="preco">R$ 999,00</p>
+          <a href="https://www.mercadolivre.com.br/" target="_blank" rel="noopener noreferrer" class="btn">Ver oferta</a>
+        </li>
+
+        <li class="produto">
+          <h3><a href="https://www.mercadolivre.com.br/notebook-lenovo-ideapad-1-ryzen-5-7520u-8gb-512gb-w11-156-hd-82x5000gbr/p/MLB35719084" target="_blank" rel="noopener noreferrer" class="card-link">Notebook Lenovo IdeaPad 1</a></h3>
+          <img src="ideapad.jpg" alt="Notebook Lenovo IdeaPad 1" width="300" height="300">
+          <p>Ryzen 5 • 8GB RAM • SSD 512GB</p>
+          <p class="preco">R$ 2.499,00</p>
+          <a href="https://www.mercadolivre.com.br/" target="_blank" rel="noopener noreferrer" class="btn">Ver oferta</a>
+        </li>
+
+        <li class="produto">
+          <h3><a href="https://www.mercadolivre.com.br/tablet-xiaomi-redmi-pad-2-11-256gb-8gb-ram-wi-fi-cor-cinza/p/MLB51481126" target="_blank" rel="noopener noreferrer" class="card-link">Xiaomi Redmi Pad 2</a></h3>
+          <img src="redmi.jpg" alt="Tablet Xiaomi Redmi Pad 2" width="300" height="300">
+          <p>11" • 256GB • 8GB RAM</p>
+          <p class="preco">R$ 1.499,00</p>
+          <a href="https://www.tudocelular.com/Redmi/fichas-tecnicas/n10041/Redmi-Pad-2.html" target="_blank" rel="noopener noreferrer" class="btn">Saiba mais</a>
+        </li>
+      </ul>
+    </section>
+
+   
+<section class="dobraveis">
+  <h2>Celulares dobráveis mais novos</h2>
+
+  <div class="lista-dobraveis">
+
+    <article class="celular-dobravel">
+      <h3>Galaxy Z Fold 8</h3>
+
+      <img
+        src="assets/zfold8.gif"
+        alt="Galaxy Z Fold 8"
+        width="500"
+        height="300"
       >
-        Smartphone Motorola Moto G35 5G 256GB 4GB RAM 8GB RAM Boost e Câmera 50MP com AI NFC Tela 6,7"
-      </a>
-    </h3>
-    <img
-      src="assets/motog35.jpg"
-      alt="Smartphone Motorola Moto G35"
-      width="300"
-      height="300"
-    />
-    <a
-      href="https://www.tudocelular.com/Motorola/fichas-tecnicas/n9651/Motorola-Moto-G35.html"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="btn"
-      >Saiba mais</a
-    >
-  </li>
 
-  <li>
-    <h3>
-      <a
-        href="https://www.mercadolivre.com.br/notebook-lenovo-ideapad-1-ryzen-5-7520u-8gb-512gb-w11-156-hd-82x5000gbr/p/MLB35719084"
-        target="_blank"
-        class="card-link"
-        rel="noopener noreferrer"
+      <p>
+        Conheça o mais novo Galaxy Z Fold 8,
+        o dobrável da Samsung.
+      </p>
+
+      <a href="#" class="btn">
+        Ver detalhes
+      </a>
+    </article>
+
+    <article class="celular-dobravel">
+      <h3>iPhone Duo</h3>
+
+      <img
+        src="assets/iphoneduo.jpg"
+        alt="iPhone Duo"
+        width="500"
+        height="300"
       >
-        Notebook Lenovo IdeaPad 1 AMD Ryzen 5 7520U 8GB RAM 512GB SSD Windows 11 Home Tela 15,6" HD
-      </a>
-    </h3>
-    <img
-      src="assets/ideaped.jpg"
-      alt="Notebook Lenovo IdeaPad 1"
-      width="300"
-      height="300"
-    />
-    <a
-      href="https://www.tudocelular.com/tech/noticias/n236668/lenovo-ideapad-1-notebook-com-amd-12x-desconto.html#google_vignette"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="btn"
-      >Saiba mais</a
-    >
-  </li>
 
-  <li>
-    <h3>
-      <a
-        href="https://www.mercadolivre.com.br/tablet-xiaomi-redmi-pad-2-11-256gb-8gb-ram-wi-fi-cor-cinza/p/MLB51481126"
-        target="_blank"
-        class="card-link"
-        rel="noopener noreferrer"
-      >
-        Tablet Xiaomi Redmi Pad 2 11" 256GB 8GB RAM Wi-Fi Cor Cinza
-      </a>
-    </h3>
-    <img
-      src="assets/redmi.jpg"
-      alt="Tablet Xiaomi Redmi Pad 2"
-      width="300"
-      height="300"
-    />
-    <a
-      href="https://www.tudocelular.com/Redmi/fichas-tecnicas/n10041/Redmi-Pad-2.html"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="btn"
-      >Saiba mais</a
-    >
-  </li>
-</ul>
-      </section>
+      <p>
+        Conheça o primeiro iPhone dobrável
+        da Apple.
+      </p>
 
-      <section>
-        <p>Conheça o mais novo Galaxy Z Fold 8</p>
-        <img
-          src="assets/zfold8.gif"
-          alt="Animação de apresentação do Galaxy Z Fold 8"
-          width="500"
-          height="300"
-        />
-      </section>
-    </main>
-  </body>
+      <a href="#" class="btn">
+        Ver detalhes
+      </a>
+    </article>
+
+  </div>
+</section>
+
+
+
+    <section class="noticias">
+      <h2>Notícias de Tecnologia</h2>
+
+      <article>
+        <h3>Novidades do mundo dos smartphones</h3>
+        <p>Confira as principais novidades e lançamentos do mercado de tecnologia.</p>
+        <a href="https://g1.globo.com/tecnologia/" target="_blank" rel="noopener noreferrer" class="btn">Ler notícia</a>
+      </article>
+
+      <article>
+        <h3>Novos notebooks chegando ao mercado</h3>
+        <p>Veja as novidades em computadores e notebooks.</p>
+        <a href="https://g1.globo.com/tecnologia/" target="_blank" rel="noopener noreferrer" class="btn">Ler notícia</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <section>
+      <h2>TechPromo</h2>
+      <p>Seu portal de promoções e novidades do mundo da tecnologia.</p>
+    </section>
+
+    <section>
+      <h3>Categorias</h3>
+      <ul>
+        <li><a href="#">Celulares</a></li>
+        <li><a href="#">Notebooks</a></li>
+        <li><a href="#">Tablets</a></li>
+        <li><a href="#">Acessórios</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Links</h3>
+      <ul>
+        
+        <li><a href="#">Promoções</a></li>
+        <li><a href="#">Notícias</a></li>
+        <li><a href="#">Sobre nós</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Redes sociais</h3>
+      <ul>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">YouTube</a></li>
+        <li><a href="#">TikTok</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <p>© 2026 TechPromo. Todos os direitos reservados.</p>
+      <p>Site desenvolvido para fins acadêmicos.</p>
+    </section>
+  </footer>
+</body>
 </html>
+```
